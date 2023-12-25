@@ -7,9 +7,6 @@
 
 I was bored one day so I decided to make my own color scheme
 
-I don't consider this complete as I didn't configure all the for Helix
-
-
 # Screenshots
 
 ## Python (Random python code I wrote)
