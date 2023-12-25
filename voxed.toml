@@ -51,8 +51,8 @@ label = "honey"
 "ui.background.separator" = { fg = "sglow" }
 "ui.linenr" = { fg = "light-grey", modifiers = ["italic"] }
 "ui.linenr.selected" = { fg = "bpink", modifiers = ["bold"] }
-"ui.statusline" = { fg = "black", bg = "bgray" }
-"ui.statusline.inactive" = { fg = "lavender", bg = "revolver" }
+"ui.statusline" = { fg = "status-two", bg = "light-grey", modifiers = ["bold", "dim"] }
+"ui.statusline.inactive" = { fg = "black", bg = "bgray-two" }
 "ui.popup" = { fg = "bgray", bg = "" }
 "ui.window" = { fg = "white" }
 "ui.help" = { bg = "#3f4047", fg = "light-grey" }
@@ -101,5 +101,7 @@ maize = "#FFE74C"
 bgray = "#8c8681"
 sglow = "#FFCF56"
 status = "#15616D"
+status-two = "#3879A1"
 redish = "#E76B74"
 light-grey = "#b7afa8"
+bgray-two = "#706b68"
