@@ -42,18 +42,17 @@ Inside of config.toml in ~/.config/helix/
 
 # FAQ
 
-## The theme background is transparent how do I turn that off?
-The theme is transparent so that way I have terminal blur
-If you want to turn it off you can modify voxed.toml 
+## How do I make the backgroun transparent
+If you want to make the background transparent:
 
-and go to the line **51** or search for **"ui.background"**
+go to the line **51** or search for **"ui.background"**
 
 and change:
 
-**"ui.background" = { fg = "#25262B", bg = "" }**
+**"ui.background" = { fg = "#25262B", bg = "#25262B" }**
 
 to:
 
-**"ui.background" = { bg = "#25262B" }**
+**"ui.background" = { fg = "#25262B", bg = "" }**
 
-and that should fix it, if it does not or you have problems feel free to open up an issue
+and that should make the theme transparent, if it does not or you have problems feel free to open up an issue
