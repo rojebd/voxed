@@ -38,21 +38,3 @@ or if you want to set the theme in your configuration file:
 Inside of config.toml in ~/.config/helix/
 
 **theme = "voxed"**
-
-
-# FAQ
-
-## How do I make the backgroun transparent
-If you want to make the background transparent:
-
-go to the line **51** or search for **"ui.background"**
-
-and change:
-
-**"ui.background" = { fg = "#25262B", bg = "#25262B" }**
-
-to:
-
-**"ui.background" = { fg = "#25262B", bg = "" }**
-
-and that should make the theme transparent, if it does not or you have problems feel free to open up an issue
