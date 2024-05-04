@@ -1,5 +1,6 @@
 # Voxed Color Scheme
 
+
 # [Installation](#install)
 # [FAQ](#faq)
 
