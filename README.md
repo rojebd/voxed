@@ -1,4 +1,3 @@
-
 # Voxed Color Scheme
 
 # [Installation](#install)
